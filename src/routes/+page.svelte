@@ -7,7 +7,7 @@
 	<meta name="description" content="Паб во Владивостоке" />
 </svelte:head>
 <section class=root>
-	<img src={logo} alt='The Guild Pub' class=logo />
+	<img src={logo} alt='The Guild Pub' class=logo width=475 height=463 />
 	<div class=contacts>
 		<p>
 			<a href='mailto:{email}'>{email}</a>
@@ -24,7 +24,14 @@
 	justify-content center
 	flex-flow column
 	gap 1em
-	height 100%
+	min-height 100%
+	padding 1em
+	--p 60%
+	background:
+		no-repeat radial-gradient(
+			var(--p) var(--p) at center,
+			rgba(0, 0, 0, 0) var(--p), rgba(0, 0, 0, 0.15)),
+		url('./bg.svg') center repeat
 .logo
 	max-width 20em
 .contacts
