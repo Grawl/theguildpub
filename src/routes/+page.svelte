@@ -1,10 +1,12 @@
 <script>
 	import logo from './logo.svg'
+	import poster from './poster.jpg'
 	const email = 'guest@theguildpub.ru'
 </script>
 <svelte:head>
 	<title>The Guild Pub</title>
 	<meta name="description" content="Паб во Владивостоке" />
+	<meta property="og:image" content="{poster}" />
 </svelte:head>
 <section class=root>
 	<img src={logo} alt='The Guild Pub' class=logo width=475 height=463 />
