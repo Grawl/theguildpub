@@ -28,6 +28,7 @@
 	gap 1em
 	min-height 100%
 	padding 1em
+	box-sizing border-box
 	--p 60%
 	background:
 		no-repeat radial-gradient(
