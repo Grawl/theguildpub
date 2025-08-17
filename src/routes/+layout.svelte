@@ -1,7 +1,8 @@
-<div class=app>
+<div class="app">
 	<slot />
 </div>
-<style lang='stylus'>
+
+<style lang="stylus">
 :global(html)
 	font-family sans-serif
 	height 100%
