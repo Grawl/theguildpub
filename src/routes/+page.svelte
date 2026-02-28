@@ -6,7 +6,7 @@ const email = 'guest@theguildpub.ru'
 </script>
 
 <svelte:head>
-	<title>Паб Гильдия</title>
+	<title>Гильдия</title>
 	<meta name="description" content="Паб во Владивостоке" />
 	<meta property="og:image" content={poster} />
 </svelte:head>
