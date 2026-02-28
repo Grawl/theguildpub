@@ -6,12 +6,12 @@ const email = 'guest@theguildpub.ru'
 </script>
 
 <svelte:head>
-	<title>The Guild Pub</title>
+	<title>Паб Гильдия</title>
 	<meta name="description" content="Паб во Владивостоке" />
 	<meta property="og:image" content={poster} />
 </svelte:head>
 <section class="root">
-	<img src={logo} alt="The Guild Pub" class="logo" width="475" height="463" />
+	<img src={logo} alt="Паб Гильдия" class="logo" width="475" height="463" />
 	<div class="contacts">
 		<p>
 			<a href="mailto:{email}">{email}</a>
